@@ -1,4 +1,4 @@
-# Week 1 : Topic #2
+# Week 2 : Topic #2
 
 ## Pre-requisites:
 
