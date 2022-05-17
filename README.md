@@ -3,11 +3,27 @@ or links, please share them by [opening a pull request](https://github.com/HackY
 
 # HackYourFuture - MASTERCLASS
 
-In this number_of_weeks week module we will build a MASTERCLASS application from scratch
+The HackYourFuture AWS course last 6 weeks and it runs every Thursday from 08.09 to 13.10 at the AWS Office in Copenhagen - Ny Carlsberg Vej 80, 1760 København. Please check all the dates below:
+
+  1. Week01 - 08.09.2022 (Thursday)
+  2. Week02 - 15.09.2022 (Thursday)
+  3. Week03 - 22.09.2022 (Thursday)
+  4. Week04 - 29.09.2022 (Thursday)
+  5. Week05 - 06.10.2022 (Thursday)
+  6. Week06 - 13.10.2022 (Thursday)
 
 ## Prerequisites
 
-Prerequisites MASTERCLASS Content
+In order to attend this Masterclass, it's mandatory that you have foundational cloud practitioner skills (15 hours of training). You can pursue the course [AWS Cloud Practitioner Essentials on AWS Skill Builder](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/134/aws-cloud-practitioner-essentials) or on [Coursera](https://www.coursera.org/learn/aws-cloud-practitioner-essentials). You can also pursue a new game-based role-playing experience, called [AWS Cloud Quest: Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner). AWS Cloud Quest teaches foundational cloud computing concepts while learners zap drones and collect gems in their quest to solve challenges in a virtual city.
+
+Services Used:
+
+  1. AWS Lambda
+  2. Amazon API Gateway
+  3. Amazon DynamoDB
+  4. AWS Step Functions
+  5. Amazon S3
+
 
 ## Preparation
 
