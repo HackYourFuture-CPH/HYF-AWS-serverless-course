@@ -92,7 +92,7 @@ We are going to learn more about S3 buckets in Week 2, but for now think of them
 Use the command below to create an S3 bucket using the AWS CLI:
 
 ```
-aws s3 create-bucket --bucket hyf-week1-cli-<RANDOM_STRING>
+aws s3api create-bucket --bucket hyf-week1-cli-<RANDOM_STRING>
 ```
 
 Where you replace RANDOM_STRING with a random string. 
