@@ -146,3 +146,9 @@ Paste your answer in the [assignment file](homework/assignments.md).
 - Keep your AWS Cloud9 IDE opened in a tab.
 - You can suspend the Cloud9 account when it is idle.
 - You can interact with the AWS environment from the console in the browser, using the AWS CLI or by creating infrastructure as code.
+
+## Assignment 4 (Optional)
+
+Try creating a bucket using the CloudFormation template, but with the AWS CLI. Use the CLI documentation to figure it out.
+
+Paste your answer in the [assignment file](homework/assignments.md).

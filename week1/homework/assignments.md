@@ -17,3 +17,7 @@ Command to create a presigned URL: `?`
 Command to delete your bucket with the AWS CLI: `?`
 
 Can you simply delete a CloudFormation bucket? : `?`
+
+**Assignment 4 (Optional):**
+
+Command to deploy your CloudFormation template using the AWS CLI: `?`
