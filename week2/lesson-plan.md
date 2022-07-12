@@ -6,8 +6,8 @@
 - A working Cloud9 environment in an AWS account.
 
 ## Agenda:
-- Introduction to AWS storage services and static web hosting on AWS - 1 hour 
-- Class assigments - 2 hours
+- Introduction to AWS storage services and static web hosting on AWS - 1.5 hours
+- Class assigments - 1.5 hours
 
 ## Class assignments 
 
