@@ -1,6 +1,9 @@
  # Preparation
-- books, articles, videos, podcasts, online courses that are mandatory (mandatory)
-- and others are might be optional (optional)
+ 
+ ## Main
+- last week's assignment 
+- read [lambda overview](https://aws.amazon.com/lambda) and [lambda features](https://aws.amazon.com/lambda/features/)
+- read [Serverless computing (cloudflare)](https://www.cloudflare.com/learning/serverless/what-is-serverless/)
 
-## Flipped classroom videos
-- N/A
+## Relevant articles (optional)
+- [AWS Serverless Multi-Tier Architectures with Amazon API Gateway and AWS Lambda](https://docs.aws.amazon.com/whitepapers/latest/serverless-multi-tier-architectures-api-gateway-lambda/welcome.html)

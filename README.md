@@ -34,13 +34,15 @@ We will go through environment setup in the first week of the course.
 | Week | Topic                                                                                                             | Preparation                         | Lesson plan                         | Homework                      |
 | ---- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------- |
 | 1.   | **Introduction** <br>  Introduction to the cloud <br> Introduction to serverless <br> Setup and explore cloud environment | [Preparation](week1/preparation.md) | [Lesson plan](week1/lesson-plan.md) | [Homework](week1/homework.md) |
-| 2.   | **MASTERCLASS Topic#2** <br> SubTopic#2.1 <br> SubTopic#2.2 <br> SubTopic#2.3                                                      | [Preparation](week2/preparation.md) | [Lesson plan](week2/lesson-plan.md) | [Homework](week2/homework.md) |
-| 3.   | **MASTERCLASS Topic#3** <br> SubTopic#3.1 <br> SubTopic#3.2 <br> SubTopic#3.3                                   | [Preparation](week3/preparation.md) | [Lesson plan](week3/lesson-plan.md) | [Homework](week3/homework.md) |
-| 4.   | **MASTERCLASS Topic#4** <br> SubTopic#4.1 <br> SubTopic#4.2 <br> SubTopic#4.3                                     | [Preparation](week4/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
-| 5.   | **MASTERCLASS Topic#5** <br> SubTopic#5.1 <br> SubTopic#5.2 <br> SubTopic#5.3                                     | [Preparation](week5/preparation.md) | [Lesson plan](week5/lesson-plan.md) | [Homework](week5/homework.md) |
-| 6.   | **MASTERCLASS Topic#6** <br> SubTopic#6.1 <br> SubTopic#6.2 <br> SubTopic#6.3                                     | [Preparation](week6/preparation.md) | [Lesson plan](week6/lesson-plan.md) | [Homework](week6/homework.md) |
+| 2.   | **Storage Services** <br>Amazon S3 <br>Static Website Hosting 3                                                      | [Preparation](week2/preparation.md) | [Lesson plan](week2/lesson-plan.md) | [Homework](week2/homework.md) |
+| 3.   | **Compute Services** <br> AWS Lambda <br>Monitoring services <br>High-level frameworks for serverless development on AWS <br> Development best practices                                   | [Preparation](week3/preparation.md) | [Lesson plan](week3/lesson-plan.md) | [Homework](week3/homework.md) |
+| 4.   | **Orchestriation Services** <br> EventBridge, SQS, SNS <br> Other Lambda triggers <br> Step Functions                                     | [Preparation](week4/preparation.md) | [Lesson plan](week4/lesson-plan.md) | [Homework](week4/homework.md) |
+| 5.   | **Serverless APIs and Databases** <br> Amazon DynamoDB <br> Amazon API Gateway                                     | [Preparation](week5/preparation.md) | [Lesson plan](week5/lesson-plan.md) | [Homework](week5/homework.md) |
+| 6.   | **GameDay!** <br> SubTopic#6.1 <br> SubTopic#6.2 <br> SubTopic#6.3                                     | [Preparation](week6/preparation.md) | [Lesson plan](week6/lesson-plan.md) | [Homework](week6/homework.md) |
 
 
 # External Documentation 
 
-External Documentation MASTERCLASS Content
+You can pursue the course AWS Cloud Practitioner Essentials on [AWS Skill Builder](https://explore.skillbuilder.aws/learn/course/internal/view/elearning/134/aws-cloud-practitioner-essentials) or on [Coursera](https://www.coursera.org/learn/aws-cloud-practitioner-essentials). 
+
+You can also pursue a new game-based role-playing experience, called [AWS Cloud Quest: Cloud Practitioner](https://explore.skillbuilder.aws/learn/course/external/view/elearning/11458/aws-cloud-quest-cloud-practitioner). AWS Cloud Quest teaches foundational cloud computing concepts while learners zap drones and collect gems in their quest to solve challenges in a virtual city.
