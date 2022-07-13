@@ -18,4 +18,7 @@ How would you calculate total impressions based on the S3 access logs format? `?
 3. Screenshot of the updated service map: `?`
 4. Which service has the highest latency: `?`
 
-## Optional assignments
+**Optional assignment**
+
+1. Screenshot of the layer in the AWS console, clearly showing the ARN: `?`
+2. Screenshot of the lambda function, clearly showing that it is now using the created layer: `?`

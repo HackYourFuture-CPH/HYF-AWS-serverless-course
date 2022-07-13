@@ -172,3 +172,6 @@ Choose a node in the main function graph. Then choose View traces to see a list 
 
 ![](images/2-segments-timeline.png)
 
+### Discussion
+1. Why is monitoring important?
+1. Why is tracing important?
