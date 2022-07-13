@@ -1,6 +1,4 @@
  # Preparation
-- books, articles, videos, podcasts, online courses that are mandatory (mandatory)
-- and others are might be optional (optional)
-
-## Flipped classroom videos
-- N/A
+- attendance to all previous weeks
+- ability to search AWS documentation
+- a playful attitude :) 

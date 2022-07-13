@@ -1,12 +1,6 @@
-# Week 6 : Topic #6
+# Week 6 : Game Day
 
-## Pre-requisites:
-
-Something about installing the software or prior knowlegde about a specific topic
-
-## Lesson Plan:
-### 1.	Sub-topic #6.1
-
-### 2.	Sub-topic #6.2
-
-### 3.	Sub-topic #6.3
+## Agenda
+Scenario Introduction - 15-20 minutes
+Teams compete! - 4 hours
+Awards ceremony - 15 minutes
