@@ -1,4 +1,4 @@
-# Week 3 : Topic #3
+# Week 3 : Compute Services
 
 ## Pre-requisites:
 
@@ -6,7 +6,7 @@
 - A working Cloud9 environment in an AWS account.
 
 ## Agenda 
-- Introduction to Compute and AWS Lambda - 30 minutes
+- Introduction to Compute Services and AWS Lambda - 30 minutes
 - Introduction to monitoring services: Amazon Cloudwatch and Amazon X-Ray - 30 minutes
 - Introduction to different high-level frameworks for serverless on AWS (SAM, Amplify, etc.) - 30 minutes
 - Class assignments - 1.5 hours
