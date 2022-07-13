@@ -1,4 +1,4 @@
-# Week 4 
+# Week 4: Serverless APIs and Databases
 
 ## Agenda
 - Introduction to API Gateways - 45 minutes
