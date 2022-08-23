@@ -1,5 +1,5 @@
 > Please help us improve and share your feedback! If you find better tutorials
-or links, please share them by [opening a pull request](https://github.com/HackYourFuture-CPH/HYF-AWS-serverless-course).
+or links, please share them by [opening a pull request](https://github.com/HackYourFuture-CPH/HYF-AWS-serverless-course/pulls).
 
 # HackYourFuture - AWS Serverless MASTERCLASS
 
