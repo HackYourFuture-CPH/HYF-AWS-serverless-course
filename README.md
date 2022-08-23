@@ -1,7 +1,18 @@
 > Please help us improve and share your feedback! If you find better tutorials
-or links, please share them by [opening a pull request](https://github.com/HackYourFuture-CPH/masterclass/pulls).
+or links, please share them by [opening a pull request](https://github.com/HackYourFuture-CPH/HYF-AWS-serverless-course).
 
-# HackYourFuture - Serverless MASTERCLASS
+# HackYourFuture - AWS Serverless MASTERCLASS
+
+The masterclass is planned to be 6 weeks on Thursdays from 13:00 to 16:00(3hours) except for the last day that will be on a Friday and from 10:00 to 15:00(5hours) and these are the dates:
+
+  1. Week01 - 08/09/2022 (Thursday)
+  2. Week02 - 15/09/2022 (Thursday)
+  3. Week03 - 22/09/2022 (Thursday)
+  4. Week04 - 29/09/2022 (Thursday)
+  5. Week05 - 06/10/2022 (Thursday)
+  6. Week06 - 14/10/2022 (Friday)
+  
+Masterclass will be held at the AWS Office (Ny Carlsberg Vej 80, Copenhagen 1760, Denmark) except for the last session on the 14/10/2022 that will be held at the HackYourFuture Office (Danneskiold-Samsøes Allé 41, 1434 København) and it will NOT be possible to join the class online.
 
 In this 6-week module we will build a serverless application from scratch using AWS services. 
 
