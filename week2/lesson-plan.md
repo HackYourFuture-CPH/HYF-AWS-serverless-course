@@ -43,8 +43,13 @@ Compile the app by executing the command `npm run build`. This will create the f
 
 To upload the files, we first create a bucket by using the [create-bucket](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/create-bucket.html) command.
 
+##### For the us-east-1 region
 ```
-aws s3api create-bucket --bucket hyf-hosting-<RANDOM_ID> --region <YOUR_REGION>
+aws s3api create-bucket --bucket hyf-hosting-<RANDOM_ID> --region us-east-1
+```
+##### For any other region
+```
+aws s3api create-bucket --bucket hyf-hosting-<RANDOM_ID> --region <REGION-ID> --create-bucket-configuration LocationConstraint=<REGION-ID>
 ```
 
 Then we leverage the [sync command](https://docs.aws.amazon.com/cli/latest/reference/s3/sync.html), to sync our freshly build files to the bucket.
