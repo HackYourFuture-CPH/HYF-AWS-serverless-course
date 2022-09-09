@@ -18,7 +18,7 @@ Take a few minutes now and setup your Cloud9 development environment. Cloud9 wor
 
 4. Select Next step.
 
-5. For Instance type, choose t3.small. Keep the defaults in the other sections. Select Next step.
+5. For Instance type, choose `t2.micro` (free tier). Keep the defaults in the other sections. Select Next step.
 
 6. Review the environment settings and select Create environment. It will take a few minutes for your Cloud9 environment to be provisioned and prepared.
 
