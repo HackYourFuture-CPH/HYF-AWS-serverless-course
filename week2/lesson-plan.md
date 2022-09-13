@@ -95,11 +95,13 @@ aws s3 website s3://hyf-hosting-<RANDOM_ID> --index-document index.html --error-
 }
 
 ```
+12. Now try to access your website again. 
 
+13. Make a change to your website and reflect the changes to your bucket with the `sync` command.
 
-Make a change to your website and reflect the changes to your bucket with the `sync` command.
+14. Find someone in class and ask them to visit and verify that your website works.
 
- Find someone in class and ask them to visit and verify that your website works.
+15. Try to expand your website using the information from the react 
 
 ### Cleanup
 
