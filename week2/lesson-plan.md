@@ -74,9 +74,14 @@ aws s3 website s3://hyf-hosting-<RANDOM_ID> --index-document index.html --error-
 
 11. At this stage your website will probably generate an error message. This will be due to a permission problem. Public access to s3 buckets are blocked by default. We have to open up this access in order for the site to be viewable over the internet. You can read more about [public access](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html)
 
+
 11.1 Allow **Account Level** public access to s3. Navigate to the s3 service in the AWS console, click on "Block Public Access settings for this account". Click "Edit", and then un-check "Block all Public Acccess" and save.
 
+<img src="https://github.com/HackYourFuture-CPH/HYF-AWS-serverless-course/blob/main/week2/images/account-level-s3-public-access.png" alt="Account Level" width="800"/>
+
 11.2 Allow **Bucket Level** public access to an #individual# s3 bucket. In the AWS console, open your hyf-hosting bucket. Click "permissions". Go to "Block public access (bucket settings)". Click "edit" and then un-check "Block all public access". Click save.
+
+<img src="https://github.com/HackYourFuture-CPH/HYF-AWS-serverless-course/blob/main/week2/images/bucket-level-s3-public-access.png" alt="Bucket Level" width="800"/>
 
 11.3 Finally we need to apply a **bucket policy**. In the AWS console, open your hyf-hosting bucket. Click "permissins". Scroll down to "bucket policy". Enter a policy as below. **Important** - update the line Resource line to specify your OWN bucket. 
 
