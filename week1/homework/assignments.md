@@ -2,15 +2,19 @@
 
 **Assignment 1:**
 
-What is an ARN: `?`
+What is an ARN: `Amazon Resource Names (ARNs) uniquely identify AWS resources. We require an ARN when you need to specify a resource unambiguously across all of AWS, such as in IAM policies, Amazon Relational Database Service (Amazon RDS) tags, and API calls.`
 
 **Assignment 2:**
 
-Response from the command: `?`
+Response from the command: `'us-east-1' is a supported AWS Region`
 
 **Assignment 3:**
 
-Command to upload file with the AWS CLI: `?`
+Command to upload file with the AWS CLI:
+`hyf-week1-console-shruthi`
+`hyf-week1-cli-shruthi`
+`hyf-week1-cf-first-stack`
+`cf-templates-3aedt1qwovdd-us-east-1`
 
 Command to create a presigned URL: `?`
 
