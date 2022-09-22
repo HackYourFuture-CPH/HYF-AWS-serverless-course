@@ -33,5 +33,4 @@ Can you simply delete a CloudFormation bucket? :
 aws cloudformation delete-stack --stack-name my-stack
 
 **Assignment 4 (Optional):**
-
 Command to deploy your CloudFormation template using the AWS CLI: `?`
