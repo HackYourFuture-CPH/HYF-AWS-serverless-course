@@ -28,7 +28,8 @@ aws s3 presign s3://week1-bucket/hello-world.txt
 Command to delete your bucket with the AWS CLI: `?`
 aws s3 rb s3://week1-bucket --force
 
-Can you simply delete a CloudFormation bucket? : `?`
+Can you simply delete a CloudFormation bucket? : 
+
 aws cloudformation delete-stack --stack-name my-stack
 
 **Assignment 4 (Optional):**
