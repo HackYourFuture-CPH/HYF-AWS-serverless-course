@@ -7,7 +7,7 @@
 
 ## DynamoDB
 
-We can interface with DynamoDB through the AWS SDK, in node, this looks like the following:
+We can interface with DynamoDB through the AWS SDK, and in node, this looks like the following:
 
 ```
 // Import required AWS SDK clients and commands for Node.js
@@ -40,7 +40,15 @@ For more examples node DynamoDB examples, see [here](https://docs.aws.amazon.com
 ## API Gateway
 
 We have already used the API Gateway briefly in Week 3. 
-SAM also has a more extensive quickstart template for API Gateways called `8 - Quick Start: Web Backend`. 
+
+To quickly create a "boilerplate" application, use:
+
+```
+sam init
+```
+and follow the quickstart template and for this lesson, SAM has a more extensive quickstart template for API Gateways called `3 - Serverless API`. 
+
+The below is how you'd define, in code, the parameters for the API
 
 ```
 Resources:
@@ -70,7 +78,10 @@ exports.getAllItemsHandler = async (event) => {
     var params = {
         TableName : tableName
     };
-    const data = await docClient.scan(params).promise();
+    const data = await docClient.scan(params).promise(); 
+    //the "scan" method pulls all the records 
+    //from the DynamoDB table.
+    
     const items = data.Items;
 
     const response = {
@@ -88,7 +99,9 @@ Comparing this to the example from week 3, we see that there are a couple of way
 
 One way is to add additional functions in the cloudformation template, and then add additional handlers. 
 
-This will then create a function for every route. Also, note that multiple API events can get mapped to the same function, i.e
+This will then create a function for every route. 
+
+Alternatively, multiple API events can get mapped to the same function, like below, where both the / and /items routes are handled by the same Lambda Function.
 
 ```
 Resources:
@@ -111,9 +124,11 @@ Resources:
         ...
 ```
 
-Another way is to have only one function handling all the routes, like we have seen in the week 4 example above.
 
 ### Development
-In order to develop API's with sam, we need to start up a server locally and then execute API requests towards it. 
+In order to develop API's with SAM, we need to start up a server locally and then execute API requests towards it. 
 
-Luckily, sam allows us to do this with the command `sam local start-api` (docs can be found ([here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-local-start-api.html))
+Luckily, SAM allows us to do this with the command `sam local start-api` (docs can be found ([here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-local-start-api.html))).
+
+This command creates a local copy of the API and Lambda to help you quickly see the effect of changes you make to your code without having to upload it into AWS.
+
