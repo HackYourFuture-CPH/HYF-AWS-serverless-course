@@ -19,7 +19,7 @@ Response from the command: `?`
 2022-09-21 19:41:01 hyf-week1-cli-kiran-consolebucket
 2022-09-21 19:40:23 hyf-week1-console-kiran
 
-Command to upload file with the AWS CLI: `?`
+Command to upload file with the AWS CLI: 
 aws s3 mv hello-world.txt s3://week1-bucket
 
 Command to create a presigned URL: `?`
