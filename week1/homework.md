@@ -2,7 +2,7 @@
 
 ## How-to submit homework for verification
 
-Fork this repository on your own GitHub profile with the name ``masterclass-hyf-HYF-homework``
+Clone this repository on your own GitHub profile with the name ``masterclass-hyf-HYF-homework``
 
 Create a PR to add your homework to the respective week folder like you are used to do in the web development course, and if you don't remember how to do hand in homework using Pull Requests, please check here https://github.com/HackYourFuture-CPH/JavaScript/blob/master/javascript1/week1/homework.md
 
