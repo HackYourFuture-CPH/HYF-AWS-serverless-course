@@ -3,7 +3,7 @@
 ## Agenda
 - Introduction to DynamoDB - 45 minutes 
 - Introduction to API Gateways - 45 minutes
-- Class assignments - 1.5 hour
+- Class assignments - 1.5 hours + 15 mins break.
 
 ## DynamoDB
 
