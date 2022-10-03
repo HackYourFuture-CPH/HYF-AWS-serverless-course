@@ -94,7 +94,7 @@ aws s3 website s3://hyf-hosting-<RANDOM_ID> --index-document index.html --error-
             "Effect": "Allow",
             "Principal": "*",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::hyf-hosting-3ofi3fiug3/*"
+            "Resource": "arn:aws:s3:::hyf-hosting-<RANDOM_ID>/*"
         }
     ]
 }
