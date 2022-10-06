@@ -108,4 +108,20 @@ Deploying this will create our usual lambda with an event configuration for new 
 
 ### 3. Step Functions
 
-TODO
+You're in luck! You recently met a friend who claims to be a stocks expert. She convinced you to try out her new stock-trading-decision-making workflow that she designed. For this, you need to deploy SAM's multi-step workflow template.
+
+You can generate the code using `sam init`. Choose '1' for the quick start templates, then choose the multi-step workflow template. Choose a runtime that you're comfortable using, and set the project name to "stocks".
+
+Your first task is to deploy this workflow by using `sam deploy --guided`, then go the AWS Console and inspect the workflow's steps. You should also try to execute the workflow and inspect each state transition, as well as the events table. Remember to click on the arrow next to "LambdaFunctionStarted" and "LambdaFunctionSucceeded" to see the inputs and outputs to each step.
+> **TIP**: If prompted, try out the new exection details page
+
+
+After you've seen the workflow execution, you're convinced that the workflow has potential. You think it would be great if you add a manual verification step before a buy or sell decision is made. Luckily, you found a tutorial that explains how to do that in detail:
+
+https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-human-approval.html
+
+Your task is to replace the buy/sell condition with a manual verification step. The step should send you an email with buy and sell links. Based on which link you click, the workflow should proceed with the relevant step.
+
+Bonus points if you can provide the email address as input to the workflow's first step instead of hardcoding it.
+
+If you have Visual Studio Code installed, then you can try to visualize the workflow following the steps [described here](https://aws.amazon.com/blogs/compute/aws-step-functions-support-in-visual-studio-code/).
