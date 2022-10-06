@@ -113,7 +113,7 @@ You're in luck! You recently met a friend who claims to be a stocks expert. She 
 You can generate the code using `sam init`. Choose '1' for the quick start templates, then choose the multi-step workflow template. Choose a runtime that you're comfortable using, and set the project name to "stocks".
 
 Your first task is to deploy this workflow by using `sam deploy --guided`, then go the AWS Console and inspect the workflow's steps. You should also try to execute the workflow and inspect each state transition, as well as the events table. Remember to click on the arrow next to "LambdaFunctionStarted" and "LambdaFunctionSucceeded" to see the inputs and outputs to each step.
-> **TIP**: If prompted, try out the new exection details page
+> **TIP**: If prompted, try out the new execution details page
 
 
 After you've seen the workflow execution, you're convinced that the workflow has potential. You think it would be great if you add a manual verification step before a buy or sell decision is made. Luckily, you found a tutorial that explains how to do that in detail:
