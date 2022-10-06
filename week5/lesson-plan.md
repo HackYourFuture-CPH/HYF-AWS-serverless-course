@@ -10,7 +10,7 @@
 
 There is one storage events we would like to focus on: `New object created event`. It will be used in the homework assignment.  To listen to this type of event, we will need to create a lambda once again with SAM.
 
-Create a new lambda through the SAM cli init command. This time you want to use the app-template called `5 - Quick Start: S3`. This will generate a lambda, which is invoked when new objects is created in a specified bucket. Additionally, a folder is created with custom event files we can use for local development.
+Create a new lambda through the SAM cli init command. This time you want to use the app-template called `6 - Quick Start: S3`. This will generate a lambda, which is invoked when new objects is created in a specified bucket. Additionally, a folder is created with custom event files we can use for local development.
 
 Remember to install the libraries with
 
